@@ -1,3 +1,6 @@
+This code is the repository for the project curamSenes, you can get more information about it here:
+<a href="https://www.hackster.io/angelluiscabello/curam-senes-8252d3">Project Hacker.io</a>
+
 They are started by AWS IoT, when a message arrives at an MQTT subject:<br>
  <b>csMQTT001</b> ---- the function that reads the json messages in the backend of the medicines taken by the patient, that updates the status in dbd (received, taken, forgotten)<br>
  <b>csMQTT002</b> ---- the function that reads the json messages in the backend of the medical tests, in this case the heart rate and oxygen saturation.<br>
